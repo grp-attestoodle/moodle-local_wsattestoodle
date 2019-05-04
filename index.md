@@ -6,5 +6,13 @@ Il utilise le protocole XML-RCP.
 
 L'utilsation est illustrée avec le source /client/testws.php
 
-on appel la méthode : getlastcertificate($username)
-le paramètre $username correspond au login de l'apprenant dont on souhaite obtenir les informations de le dernière attestation.
+On appel la méthode :
+    getlastcertificate($username)  
+    
+Le paramètre $username correspond au login de l'apprenant dont on souhaite obtenir les informations de la dernière attestation.
+
+Le resultat est fournit au format JSON  
+Exemple
+
+En cas d'erreur on peut obtenir :
+
