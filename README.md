@@ -1,8 +1,9 @@
 # Web service Attestoodle #
 
-TODO Describe the plugin shortly here.
+Provides all the information contained in a learner's certificate.  
+The certificate must be generated before the method is called up: getlastcertificate($login)
 
-TODO Provide more detailed description here.
+See doc :  https://grp-attestoodle.github.io/moodle-local_wsattestoodle/  
 
 ## License ##
 
