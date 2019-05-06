@@ -5,6 +5,7 @@ The certificate must be generated before the method is called up: getlastcertifi
 
 See doc :  https://grp-attestoodle.github.io/moodle-local_wsattestoodle/  
 
+
 ## License ##
 
 2019 Universite du Mans
