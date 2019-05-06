@@ -55,3 +55,16 @@ ou
     }
 
  
+ ## Qualité du code
+ 
+| Module Travis |  Resultat |
+|---------------|-----------|
+| phplint       |     OK    |
+| phplint       |     OK    |
+| phpcpd        | OK 474 total lines of code      |
+| phpmd         | FOUND 0 ERRORS AND 2 VIOLATIONS |
+| codechecker   |     OK    |
+| validate      |     OK    |
+| savepoints      |     OK    |
+| mustache      |     OK    |
+| grunt      |     OK    |
