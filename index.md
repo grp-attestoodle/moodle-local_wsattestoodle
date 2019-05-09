@@ -11,7 +11,9 @@ On appel la méthode :
     
 Le paramètre $username correspond au login de l'apprenant dont on souhaite obtenir les informations de la dernière attestation.
 
-Le résultat est fournit au format JSON, cette structure nous informe via 'result' de l'issue de la recherche et l'ensemble des durées y sont exprimées en minutes. 
+Le résultat est fournit dans une structure JSON, celle-ci nous informe
+ * De l'issue de la recherche via 'result'.
+ * Dans le cas nominale de l'ensemble des temps crédités exprimés en minutes. 
 
 Exemple :  
 
@@ -68,3 +70,4 @@ ou
 | savepoints      |     OK    |
 | mustache      |     OK    |
 | grunt      |     OK    |
+
