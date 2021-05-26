@@ -31,8 +31,6 @@ require_once(dirname(__FILE__) .'/../externallib.php');
 /*
  * Imports of class files.
  */
-$toolpath = dirname(__FILE__);
-
 $username = optional_param('username', 'rv0', PARAM_ALPHANUM);
 
 $context = context_system::instance();
@@ -41,7 +39,7 @@ $PAGE->set_context($context);
 require_login();
 
 // Always create trainings.
-$urlact = new moodle_url($toolpath . '/testmethode.php', ['username' => $username]);
+$urlact = new moodle_url('/local/wsattestoodle/client/testmethode.php', ['username' => $username]);
 $PAGE->set_url($urlact);
 
 $PAGE->set_title("TEST");
