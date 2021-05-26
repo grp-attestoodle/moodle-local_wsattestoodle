@@ -45,11 +45,10 @@ if ($token != 'none') {
     $resp = xmlrpc_decode($curl->post($serverurl, $post));
 }
 
-$toolpath = dirname(__FILE__);
 $context = context_system::instance();
 $PAGE->set_context($context);
 require_login();
-$urlact = new moodle_url($toolpath . '/testmethode.php', []);
+$urlact = new moodle_url('/local/wsattestoodle/client/testmethode.php', []);
 $PAGE->set_url($urlact);
 $PAGE->set_title("TEST");
 
