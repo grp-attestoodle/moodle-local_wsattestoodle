@@ -5,6 +5,9 @@ The certificate must be generated before the method is called up: getlastcertifi
 
 See doc :  https://grp-attestoodle.github.io/moodle-local_wsattestoodle/  
 
+Compatibility : Moodle 3.8, 3.9, 3.10, 3.11
+
+Plugin type : local
 
 ## License ##
 
